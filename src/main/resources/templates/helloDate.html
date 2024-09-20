@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Example</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}">
+</head>
+<body>
+<h1>Welcome to Thymeleaf</h1>
+
+
+<p th:text="'The date is : ' + ${theModel} + '!'"  class="funny"/>
+</body>
